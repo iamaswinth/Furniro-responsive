@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css">
 
+    <!--=============== SWIPER CSS ===============--> 
+    <link rel="stylesheet" href="assests/css/swiper-bundle.min.css">
+
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assests/css/style.css">
 </head>
@@ -209,7 +212,63 @@
         </section>
 
         <!--==================== NEW ====================-->
-        <section class="new section container" id="new">
+        <section class="new section" id="about">
+            <div class="new__content__container">
+
+                <div class="new__containers container">
+                    <div class="new__content">
+                        <h1 class="new__title">
+                            50+ Beautiful rooms <br>
+                            inspiration                        
+                        </h1>
+    
+                        <p class="new__description">
+                            Our designer already made a lot of beautiful prototipe of rooms that inspire you                        
+                        </p>
+    
+                        <button class="button">Explore More</button>
+                    </div>
+    
+                    <div class="img__wrapper">
+                        <img src="assests/img/slider-img-cover.png" alt="">
+                        <div class="img__content">
+                            <p>01 - Bed Room</p>
+                            <h2>Inner Peace</h2>
+                        </div>
+                    </div>
+    
+                    <div class="new__container">
+                        <div class="swiper new-swipper">
+                            <h1>Product - Slider</h1>
+                            <div class="swiper-wrapper">
+                                <div class="img__slider swiper-slide">
+                                    <img src="assests/img/product-img-1.png" alt="">
+                                </div>
+    
+                                <div class="img__slider swiper-slide">
+                                    <img src="assests/img/product-img-2.png" alt="">
+                                </div>
+    
+                                <div class="img__slider swiper-slide">
+                                    <img src="assests/img/product-img-3.png" alt="">
+                                </div>
+    
+                                <div class="img__slider swiper-slide">
+                                    <img src="assests/img/product-img-4.png" alt="">
+                                </div>
+    
+                                <div class="img__slider swiper-slide">
+                                    <img src="assests/img/product-img-5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>                
+
+            </div>
+
+            
                 
         </section>
 
@@ -293,8 +352,10 @@
         <span class="footer__copy">2023 furino. All rights reverved</span>
             
     </footer>
-    
+    <!--=============== SWIPER JS ===============-->
+    <script src="assests/js/swiper-bundle.min.js"></script>
 
+    <!--=============== MAIN JS ===============-->
     <script src="assests/js/main.js"></script>
     
 </body>

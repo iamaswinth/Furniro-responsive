@@ -29,3 +29,12 @@ document.addEventListener('click', (event) => {
         navMenu.classList.remove('show-menu');
     }
 });
+
+
+let swiper = new Swiper(".new-swipper", {
+    slidesPerView: 1.3,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination"
+    },
+  });
