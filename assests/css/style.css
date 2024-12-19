@@ -451,6 +451,18 @@ button{
     z-index: 1;
   } */
 
+  .img__slider{
+    width: 300px;
+    height:400px;
+  }
+
+  .img__slider img{
+    background-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
   .img__content{
     position: absolute;
     left: 5rem;
@@ -479,15 +491,20 @@ button{
   }
 
   .swiper-wrapper{
-    margin-top: -.75rem;
+    /* margin-top: -.75rem; */
     margin-bottom: 3rem;
   }
 
   .new-swipper h1{
     font-size: var(--h2-font-size);
+    letter-spacing: .15rem;
     text-align: center;
     margin-bottom: 1rem;
     color: var(--text-color);
+  }
+
+  .swiper-button{
+    display: none;
   }
 
   /*Class Swiper*/

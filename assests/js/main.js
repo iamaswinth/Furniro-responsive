@@ -32,9 +32,14 @@ document.addEventListener('click', (event) => {
 
 
 let swiper = new Swiper(".new-swipper", {
-    slidesPerView: 1.3,
-    spaceBetween: 10,
-    pagination: {
-      el: ".swiper-pagination"
+    cssMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
   });
