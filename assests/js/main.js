@@ -32,6 +32,7 @@ document.addEventListener('click', (event) => {
 
 
 let swiper = new Swiper(".new-swipper", {
+    spaceBetween: 30,
     cssMode: true,
     navigation: {
       nextEl: ".swiper-button-next",
