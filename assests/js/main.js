@@ -31,13 +31,23 @@ document.addEventListener('click', (event) => {
 });
 
 
-let swiper = new Swiper(".new-swipper", {
+// let swiper = new Swiper(".new-swipper", {
+//     spaceBetween: 30,
+//     cssMode: true,
+//     navigation: {
+//       nextEl: ".swiper-button-next",
+//       prevEl: ".swiper-button-prev",
+//     },
+//     pagination: {
+//       el: ".swiper-pagination",
+//     },
+//     mousewheel: true,
+//     keyboard: true,
+//   });
+
+  let swiper = new Swiper(".new-swipper", {
     spaceBetween: 30,
-    cssMode: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+    // freeMode: true,
     pagination: {
       el: ".swiper-pagination",
     },
